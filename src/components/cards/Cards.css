@@ -1,0 +1,26 @@
+@import "tailwindcss";
+.card {
+    @apply border max-w-64;
+}
+
+.card-header {
+    @apply relative;
+}
+
+.card-header img {
+    @apply w-full h-full object-cover;
+}
+
+.card-header h1 {
+    @apply absolute -translate-1/2 top-1/2 left-1/2 text-white;
+}
+.card-body {
+    @apply px-3 py-2;
+}
+
+.card-footer {
+    @apply mt-2 flex flex-row flex-wrap;
+}
+.card-footer button{
+    @apply bg-indigo-400 text-white py-2 px-3 rounded shadow flex-1;
+}
